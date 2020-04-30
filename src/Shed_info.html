@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<div style="font-family:arial">
+		<h1>
+			Shed
+		</h1>
+	
+		<body>
+			Shed is the debut studio album by American rock band Title Fight. It was released on May 3, 2011, through SideOneDummy Records. It received positive reviews, garnering an 81 on review aggregator Metacritic. It debuted at No. 8 on the Billboard Heatseekers chart.
+		<br><br>	
+		</body>
+	</div>
+	
+	<style>
+/* Style the button that is used to open and close the collapsible content */
+		.collapsible {
+  			background-color: #eee;
+  			color: #444;
+  			cursor: pointer;
+  			padding: 18px;
+  			width: 100%;
+  			border: none;
+  			text-align: left;
+  			outline: none;
+  			font-size: 15px;
+		}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+		.active, .collapsible:hover {
+  		background-color: #ccc;
+		}
+
+/* Style the collapsible content. Note: hidden by default */
+		.content {
+  			padding: 0 18px;
+  			display: none;
+  			overflow: hidden;
+  			background-color: #f1f1f1;
+		}
+	</style>
+	
+	<button type="button" class="collapsible"><strong>Track Listing</strong></button>
+	
+	<div class="content">
+  		<table style="width:100%">	
+			<tr style="text-align:left;">
+				<th>Title</th>
+				<th>Length</th>
+			</tr>
+			
+			<tr>
+				<td>1.	<a href=https://open.spotify.com/track/4HcemnwcdpRMMBkWoAiSPv>"Coxton Yard"</a></td>
+				<td>1:30</td>
+			</tr>
+
+			<tr>
+				<td>2.	<a href=https://open.spotify.com/track/2mpwfz2jToP5fKfyvBJZVo>"Shed"</a></td>
+				<td>2:17</td>
+			</tr>
+			
+			<tr>
+				<td>3.	<a href=https://open.spotify.com/track/7xsYrt7NYD2fneX7osyoQE>"Flood of '72"</a></td>
+				<td>1:57</td>
+			</tr>
+			
+			<tr>
+				<td>4.	<a href=https://open.spotify.com/track/2thoPWDcb7JfOh9FQeeB7P>"Society"</a></td>
+				<td>1:23</td>
+			</tr>
+			
+			<tr>
+				<td>5.	<a href=https://open.spotify.com/track/1Fk59eXpPRLns8sU0jrtEF>"You Can't Say Kingston Doesn't Love You"</a></td>
+				<td>1:43</td>
+			</tr>
+			
+			<tr>
+				<td>6.	<a href=https://open.spotify.com/track/7GzyW7oxLRMUXoqJZgoS1S>"Crescent-Shaped Depression"</a></td>
+				<td>2:35</td>
+			</tr>
+			
+			<tr>
+				<td>7.	<a href=https://open.spotify.com/track/0Pb9a6DMcSa4NdbTwvfHXw>"Safe in Your Skin"</a></td>
+				<td>2:50</td>
+			</tr>
+			
+			<tr>
+				<td>8.	<a href=https://open.spotify.com/track/7Llg5or4LjH7AcThHedB5W>"Where Am I?"</a></td>
+				<td>3:06</td>
+			</tr>
+			
+			<tr>
+				<td>9.	<a href=https://open.spotify.com/track/6o7d23LFMtnXgFLnXGOJb0>"Your Screen Door"</a></td>
+				<td>2:09</td>
+			</tr>
+			
+			<tr>
+				<td>10.	<a href=https://open.spotify.com/track/4DilZmLvcSt0qtPFA1UBtY>"27"</a></td>
+				<td>2:28</td>
+			</tr>
+			
+			<tr>
+				<td>11.	<a href=https://open.spotify.com/track/7c05WSWF774NRxbAKHQQjt>"Stab"</a></td>
+				<td>2:01</td>
+			</tr>
+			
+			<tr>
+				<td>12.	<a href=https://open.spotify.com/track/0Z6id0OMfcJZS3vFDt6yeh>"GMT (Greenwich Mean Time)"</a></td>
+				<td>3:38</td>
+			</tr>
+		</table>
+	</div>
+	
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+  			coll[i].addEventListener("click", function() {
+    			this.classList.toggle("active");
+    			var content = this.nextElementSibling;
+    			if (content.style.display === "block") {
+      				content.style.display = "none";
+    			} else {
+      				content.style.display = "block";
+    			}
+  			});
+		}
+	</script>
+
+</html>

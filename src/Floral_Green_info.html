@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<div style="font-family:arial">
+		<h1>
+			Floral Green
+		</h1>
+	
+		<body>
+			Floral Green is the second studio album by American rock band Title Fight.
+		<br><br>	
+		</body>
+	</div>
+	
+	<style>
+/* Style the button that is used to open and close the collapsible content */
+		.collapsible {
+  			background-color: #eee;
+  			color: #444;
+  			cursor: pointer;
+  			padding: 18px;
+  			width: 100%;
+  			border: none;
+  			text-align: left;
+  			outline: none;
+  			font-size: 15px;
+		}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+		.active, .collapsible:hover {
+  		background-color: #ccc;
+		}
+
+/* Style the collapsible content. Note: hidden by default */
+		.content {
+  			padding: 0 18px;
+  			display: none;
+  			overflow: hidden;
+  			background-color: #f1f1f1;
+		}
+	</style>
+	
+	<button type="button" class="collapsible"><strong>Track Listing</strong></button>
+	
+	<div class="content">
+  		<table style="width:100%">	
+			<tr style="text-align:left;">
+				<th>Title</th>
+				<th>Length</th>
+			</tr>
+			
+			<tr>
+				<td>1.	<a href=https://open.spotify.com/track/3CJanSvcBgcp9JWnMQzP4U>"Numb, But I Still Feel It"</a></td>
+				<td>3:03</td>
+			</tr>
+
+			<tr>
+				<td>2.	<a href=https://open.spotify.com/track/5B17QCrNgTfuOi5R36nuwe>"Leaf"</a><</td>
+				<td>2:33</td>
+			</tr>
+			
+			<tr>
+				<td>3.	<a href=https://open.spotify.com/track/1goViKLTfLPfkhzZ1108d8>"Like a Ritual"</a><</td>
+				<td>3:08</td>
+			</tr>
+			
+			<tr>
+				<td>4.	<a href=https://open.spotify.com/track/4n5fLj4ykF4Mh1iGjvP8PV>"Secret Society"</a><</td>
+				<td>3:07</td>
+			</tr>
+			
+			<tr>
+				<td>5.	<a href=https://open.spotify.com/track/7l9nfSOURKenK8eLUuLl4o>"Head in the Ceiling Fan"</a><</td>
+				<td>4:00</td>
+			</tr>
+			
+			<tr>
+				<td>6.	<a href=https://open.spotify.com/track/1SVDipSZQq3Lz8xFWLGdgY>"Make You Cry"</a><</td>
+				<td>2:52</td>
+			</tr>
+			
+			<tr>
+				<td>7.	<a href=https://open.spotify.com/track/06G83E0OEqgGsIkCXc95ST>"Sympathy"</a><</td>
+				<td>2:52</td>
+			</tr>
+			
+			<tr>
+				<td>8.	<a href=https://open.spotify.com/track/7hudmPl7BmV5mvMTs2YYQB>"Frown"</a><</td>
+				<td>2:19</td>
+			</tr>
+			
+			<tr>
+				<td>9.	<a href=https://open.spotify.com/track/43ctCsShjvvPLkWODVOoDP>"Calloused"</a><</td>
+				<td>2:02</td>
+			</tr>
+			
+			<tr>
+				<td>10.	<a href=https://open.spotify.com/track/7Mo0oBvWMnpdNVw5xhhaAR>"Lefty"</a><</td>
+				<td>4:01</td>
+			</tr>
+			
+			<tr>
+				<td>11.	<a href=https://open.spotify.com/track/2yXFFgJgzB2ozeW17xjzyA>"In-Between"</a><</td>
+				<td>2:54</td>
+			</tr>
+		</table>
+	</div>
+	
+	<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+  			coll[i].addEventListener("click", function() {
+    			this.classList.toggle("active");
+    			var content = this.nextElementSibling;
+    			if (content.style.display === "block") {
+      				content.style.display = "none";
+    			} else {
+      				content.style.display = "block";
+    			}
+  			});
+		}
+	</script>
+
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+	<style>
+/* Style the buttons that are used to open and close the accordion panel */
+		.accordion {
+		  background-color: #eee;
+		  color: #444;
+		  cursor: pointer;
+		  padding: 18px;
+		  width: 100%;
+		  text-align: left;
+		  border: none;
+		  outline: none;
+		  transition: 0.4s;
+		}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+		.active, .accordion:hover {
+		  background-color: #ccc;
+		}
+
+/* Style the accordion panel. Note: hidden by default */
+		.panel {
+		  padding: 0 18px;
+		  background-color: white;
+		  display: none;
+		  overflow: hidden;
+		}
+	
+	</style>
+	
+	<button class="accordion"><strong>The Band</strong></button>
+		<div class="panel" style="font-family:arial ; font-size:14px">
+  			<h3>
+				The Members
+			</h3>
+	
+			<body>
+				Jamie Rhoden – guitar, vocals (2003–present) <br>
+				Ned Russin – bass, vocals (2003–present) <br>
+				Shane Moran – guitar (2005–present) <br>
+				Ben Russin – drums (2003–present) <br>		
+			</body>
+	
+			<h3>
+				Music Style
+			</h3>
+	
+			<body>
+				Title Fight's style has been described as post-hardcore, hardcore punk, melodic hardcore, punk rock, emo, shoegazing, and post-rock. Forming as a hardcore band, they soon began to draw influences from a variety of other genres such as alternative rock, shoegazing, and post-rock.
+				<br><br>
+			</body>
+		</div>
+
+	<button class="accordion"><strong>Early years</strong></button>
+		<div class="panel">
+  			<body>
+				<br>
+				Title Fight formed in 2003 as a three-piece band consisting of Jamie Rhoden on guitar and vocals, Ned Russin on bass and Ned's twin brother Ben on drums, playing local shows in Kingston and Wilkes-Barre, PA. Ned Russin claims his older brother, Alex Russin is a huge influence in their formation of Title Fight. Their name came from the cover of an old HBO showtime guide that Ned had read in the attic when he was younger. In addition to popular punk bands, Rhoden claims the Positive Numbers Fest (an annual hardcore/punk music festival in Wilkes-Barre, PA) was an influence on the band's formation. The band produced a demo entitled "Down for the Count" in 2003 that is still available on the internet.
+				In 2005, the band added Shane Moran on second guitar and recorded two demos in 2005 and 2006, during which they played shows in what they call a "small, tight-knit community" around Kingston, PA. These included several shows at the Doylestown, PA YMCA Teen Center.		
+				<br><br>
+			</body>
+		</div>
+
+	<button class="accordion"><strong>Progression</strong></button>
+		<div class="panel">
+  			<body>
+				<br>
+				They recorded a split with the Erection Kids in 2007 on FlightPlan Records. Members of the Erection Kids later went on to form Balance And Composure. The band quickly followed up their first release with the Kingston 7" (also on FlightPlan Records) in 2008. Title Fight played with Fireworks on their tour with Set Your Goals Summer of 2007, ultimately leading to Jeff's (owner of Run For Cover Records) discovery of Title Fight. On October 16, 2008, it was announced that the band had signed to Run for Cover Records. The Last Thing You Forget 7" was recorded in December 2008 at the Getaway Group in Massachusetts with Jay Maas and released in June 2009 on Run for Cover Records. The 7" featured three new songs while the CD release featured all of their releases to date. The artwork for the album was done by John Slaby, a friend from Wilkes-Barre. Later in June, the band went on tour with Crime in Stereo and Fireworks. This was followed by a US tour with New Found Glory. The Kingston EP has also been re-released on Six Feet Under Records with Dave Sausage in order to revamp the EP. During these years, Title Fight altered their sounds to a more Melodic hardcore genre, with influences including Knapsack, Jawbreaker, and the Promise Ring.
+				In 2010, Title Fight was featured on Triple B Record's compilation, America's Hardcore, with a new song entitled "Dreamcatchers". They also did a US tour with Bayside, Senses Fail and Balance And Composure and a tour of Japan with H2O.
+				<br><br>
+			</body>
+		</div>
+	
+	<button class="accordion"><strong>SideOneDummy Records</strong></button>
+		<div class="panel">
+			<body>
+				<br>
+				On January 19, 2011, Title Fight signed to SideOneDummy Records and announced they had finished recording their debut full-length, produced by Walter Schreifels (Gorilla Biscuits, Quicksand, and Rival Schools) and engineered by Will Yip at Studio 4 in Conshohocken, PA. The band will also embark on their first headline tour in 2011 with the Menzingers, Touche Amore, Dead End Path and Shook Ones.
+				The band released their new album, Shed, on May 3, 2011. On February 10, they released a new song off Shed for free download entitled 27 and Shed's album artwork. On February 23, SideOneDummy posted pre-orders for a new Title Fight 7" called "Flood of '72". The 7" featured the song from Shed along with an acoustic version of the song, and was released on April 12.
+				On May 20, 2011 it was announced that Title Fight would play their first Australian tour with Touché Amoré in September 2011.
+				After finishing the AP Fall Tour 2011, Title Fight embarked on a huge 22 date European tour, starting November 28, 2011, visiting France, the Netherlands, Switzerland, Italy, Austria, Czech Republic, Germany, Belgium, the UK and finishing in Ireland with a final show in Dublin. They were joined by Balance And Composure and Transit for the tour.
+				On August 24 and 26, 2011, the band played both dates of Reading and Leeds festival in the UK.
+				Title Fight supported Rise Against on the second leg of their 2012 US Endgame Tour.
+				On January 11, 2012, through the Vans Warped Tour website, it was announced that Title Fight would be joining the 2012 tour on the Monster Energy stage.
+				On June 17, 2012, and July 8, 2012, Title Fight played Main Stage at the Vans Warped Tour.
+			</body>
+	
+			<h3>
+				Albums
+			</h3>
+	
+			<body>
+				<a href="Shed_info.html">Shed</a> (2011, SideOneDummy) <br>
+				<a href="Floral_Green_info.html">Floral Green</a> (2012, SideOneDummy) <br>
+				<a href="Hyperview_info.html">Hyperview</a> (2015, ANTI-) <br>
+			</body>
+		</div>
+	
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+		  acc[i].addEventListener("click", function() {
+/* Toggle between adding and removing the "active" class,
+to highlight the button that controls the panel */
+	    this.classList.toggle("active");
+
+/* Toggle between hiding and showing the active panel */
+	    var panel = this.nextElementSibling;
+	    if (panel.style.display === "block") {
+	      panel.style.display = "none";
+	    } else {
+	      panel.style.display = "block";
+	    }
+	  });
+	}
+	</script>
+	
+</html>
